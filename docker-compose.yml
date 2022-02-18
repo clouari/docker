@@ -17,9 +17,9 @@ services:
     image: mysql:5.7
     platform: linux/x86_64
     environment:
-      MYSQL_ROOT_PASSWORD: 'json'
-      MYSQL_USER: 'kim'
-      MYSQL_PASSWORD: 'json'
+      MYSQL_ROOT_PASSWORD: 'dahui'
+      MYSQL_USER: 'Jung'
+      MYSQL_PASSWORD: 'dahui'
       MYSQL_DATABASE: 'myDB'
     volumes:
       - ./data:/var/lib/mysql
