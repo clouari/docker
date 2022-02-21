@@ -14,4 +14,6 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 echo "Connected successfully";
+
+//mysql_port 를 10000으로 해서 연습 해 보기
 ?>
